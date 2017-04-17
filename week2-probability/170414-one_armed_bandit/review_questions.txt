@@ -1,0 +1,94 @@
+Review DSI
+Week 0 and Week 1
+
+SQL
+
+* What is an RDBMS?
+    * Rational Database Management System
+
+* What is a schema?
+    * The set of all tables within the database
+
+* What does SQL stand for and what is it?
+    * Structured Querey Language
+
+* How do you access information stored in SQL databases?
+
+* What are the two main parts of a SQL query?
+
+* The following questions pertain to specific SQL commands:
+    * How do you constrain the number of records returned by a query?
+    * How do you sort sort the order of records returned by a query?
+    * How do you group rows together?
+    * How do you find specific rows in a table...
+        * Before an aggregation?
+        * After an aggregation?
+
+* Name 3 types of joins and draw Venn diagram examples of them.
+
+* How might you improve the readability of a large, complicated query?  Think both
+  regarding syntax and the formation of other tables.
+
+
+Probability
+
+* What is Bayes rule?  What does it relate?
+
+* What is combinatorics?
+
+* How many ways can I arrange n unique objects?
+
+* How many ways can I arrange k of n unique objects, where k < n?  What is this called?
+
+* If order doesn't matter, how many ways can I pick of n objects? What is this called?
+
+* What is a random variable?
+
+* How would you define the difference between discrete and continuous distributions?
+
+* What distribution would you use to model the following cases:
+    * What is the probability that the mean volume of 50 bottles is less than 500 ml?
+        * Normal
+    * Deciding to go for a run or not.
+        * Bernoulli
+    * Determining how many days pass before you finally decide to go for a run.
+        * Geometric
+    * Determining how likely it is that you go for 10 runs in a month.
+        * Poisson
+    * Calculating how much water falls into an open swimming pool during a rain storm.
+        * Uniform
+    * Assuming you run at a 9 minute mile pace avg pace, determining how likely
+      it is that you pass the 3 mile mark in a race in 25 minutes?
+        * Poisson
+
+
+Estimation-sampling
+
+* What is the central limit theorem?
+    *
+
+* How would you go about implementing a bootstrap, and why would you do it?
+    * Resample the sample with replacement. You would do it when you don't have enough data
+
+
+Hypothesis testing
+
+* What are the general steps of a hypothesis tests?  Make one up (something you'd test)
+  and go through the steps.
+  * Set a null hypothesis and alternative hypothesis. If the null hypothesis is not true
+
+* What is a p value?
+    *
+* What is a type I error?
+
+* What is a type II error?
+
+
+Power
+
+* What are the four factors that influence power?
+    * Sample Size, Effect Size, Significance level, and variance
+
+* In Bayes rule, what are the posterior, the likelihood, and the prior distributions?
+  How are they related?
+    * Posterior is prior belief, likelihood is the chance of happening given the prior. Prior is the known distributions
